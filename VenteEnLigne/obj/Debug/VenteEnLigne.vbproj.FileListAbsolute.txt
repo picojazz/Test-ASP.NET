@@ -1,0 +1,8 @@
+C:\Users\picojazz\documents\visual studio 2012\Projects\VenteEnLigne\VenteEnLigne\bin\VenteEnLigne.dll
+C:\Users\picojazz\documents\visual studio 2012\Projects\VenteEnLigne\VenteEnLigne\bin\VenteEnLigne.pdb
+C:\Users\picojazz\documents\visual studio 2012\Projects\VenteEnLigne\VenteEnLigne\bin\VenteEnLigne.xml
+C:\Users\picojazz\documents\visual studio 2012\Projects\VenteEnLigne\VenteEnLigne\obj\Debug\VenteEnLigne.Resources.resources
+C:\Users\picojazz\documents\visual studio 2012\Projects\VenteEnLigne\VenteEnLigne\obj\Debug\VenteEnLigne.vbproj.GenerateResource.Cache
+C:\Users\picojazz\documents\visual studio 2012\Projects\VenteEnLigne\VenteEnLigne\obj\Debug\VenteEnLigne.dll
+C:\Users\picojazz\documents\visual studio 2012\Projects\VenteEnLigne\VenteEnLigne\obj\Debug\VenteEnLigne.xml
+C:\Users\picojazz\documents\visual studio 2012\Projects\VenteEnLigne\VenteEnLigne\obj\Debug\VenteEnLigne.pdb
