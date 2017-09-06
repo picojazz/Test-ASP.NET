@@ -19,7 +19,8 @@ Public Class Global_asax
         Application("logout") = 0
         Application("modif") = 0
         Application("supp") = 0
-
+        Application("suppP") = 0
+        Application("modifP") = 0
     End Sub
 
     Sub Session_Start(ByVal sender As Object, ByVal e As EventArgs)

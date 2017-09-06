@@ -119,12 +119,23 @@ Module traitement
 
         Return executeSQL("delete client where matricule =" & id & "")
     End Function
+    Public Function deleteProduit(ByVal id As Integer)
+
+        Return executeSQL("delete produit where numprod =" & id & "")
+    End Function
     Public Function Client(ByVal id As Integer)
 
         Return executeSQL("select * from client where matricule =" & id & "")
     End Function
+    Public Function produit(ByVal id As Integer)
+
+        Return executeSQL("select * from produit where numprod =" & id & "")
+    End Function
+    Public Function modiffProduit(ByVal des As String, ByVal pu As String, ByVal qte As String, ByVal id As Integer)
+        Return executeSQL("update produit set designation ='" & des & "', prixunit='" & pu & "',qtestock ='" & qte & "' where numprod =" & id & "")
 
 
+    End Function
 
 
 

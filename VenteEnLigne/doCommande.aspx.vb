@@ -28,11 +28,11 @@ Public Class doCommande
             Label2.Text = "<input type='number' name='qte' class='form-control' >"
 
             Label4.Text = "<table class=' table table-stripped table-hover'>"
-            Label4.Text &= "<tr><th>code produit</th><th>designation</th><th>prix unitaire</th><th>quantite en stock</th><th>commander</th></tr>"
+            Label4.Text &= "<tr><th>code produit</th><th>photo</th><th>designation</th><th>prix unitaire</th><th>quantite en stock</th><th>commander</th></tr>"
 
             If drp1.HasRows Then
                 While drp1.Read
-                    Label4.Text &= "<tr><td>" & drp1(0) & "</td><td>" & drp1(1) & "</td><td>" & drp1(2) & "</td><td>" & drp1(3) & "</td><td><a class='btn btn-success voir' data-toggle='modal' href='#modal-id'>Commander</a></td></tr>"
+                    Label4.Text &= "<tr><td>" & drp1(0) & "</td><td><img src='" & drp1(4) & "' width='50px' heigth='50px' ></td><td>" & drp1(1) & "</td><td>" & drp1(2) & "</td><td>" & drp1(3) & "</td><td><a class='btn btn-success voir' data-toggle='modal' href='#modal-id'>Commander</a></td></tr>"
 
 
                 End While

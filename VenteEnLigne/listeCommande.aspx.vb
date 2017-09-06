@@ -20,7 +20,7 @@ Public Class listeCommande
 
                 End While
             Else
-                Label1.Text &= "<tr><td colspan='5'> Aucun produit disponible</td></tr>"
+                Label1.Text &= "<tr><td colspan='5'> Aucune commande disponible</td></tr>"
 
             End If
 

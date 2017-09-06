@@ -1,4 +1,4 @@
-﻿Public Class suppClient
+﻿Public Class suppProduit
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
@@ -6,13 +6,13 @@
             Response.Redirect("adminConnexion.aspx")
         Else
 
-            Dim mat As Integer = Request.Params("id")
-            dr = deleteClient(mat)
+            Dim id As Integer = Request.Params("id")
+            dr = deleteProduit(id)
             dr.Close()
-            Application("supp") = 1
-            Response.Redirect("gestionClient.aspx")
-        End If
+            Application("suppP") = 1
+            Response.Redirect("gestionProduit.aspx")
 
+        End If
 
     End Sub
 

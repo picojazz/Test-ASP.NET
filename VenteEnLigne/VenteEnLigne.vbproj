@@ -88,6 +88,7 @@
     <Content Include="deconnexion.aspx" />
     <Content Include="doCommande.aspx" />
     <Content Include="gestionClient.aspx" />
+    <Content Include="gestionCommande.aspx" />
     <Content Include="gestionProduit.aspx" />
     <Content Include="Global.asax" />
     <Content Include="header.html" />
@@ -98,9 +99,11 @@
     <Content Include="listeProduits.aspx" />
     <Content Include="modifClient.aspx" />
     <Content Include="modifClient1.aspx" />
+    <Content Include="modifProduit.aspx" />
     <Content Include="My Project\header.html" />
     <Content Include="rechProd.aspx" />
     <Content Include="suppClient.aspx" />
+    <Content Include="suppProduit.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -139,6 +142,13 @@
     </Compile>
     <Compile Include="gestionClient.aspx.vb">
       <DependentUpon>gestionClient.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="gestionCommande.aspx.designer.vb">
+      <DependentUpon>gestionCommande.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestionCommande.aspx.vb">
+      <DependentUpon>gestionCommande.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="gestionProduit.aspx.designer.vb">
@@ -193,6 +203,13 @@
       <DependentUpon>modifClient1.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="modifProduit.aspx.designer.vb">
+      <DependentUpon>modifProduit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modifProduit.aspx.vb">
+      <DependentUpon>modifProduit.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -224,6 +241,13 @@
     </Compile>
     <Compile Include="suppClient.aspx.vb">
       <DependentUpon>suppClient.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="suppProduit.aspx.designer.vb">
+      <DependentUpon>suppProduit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="suppProduit.aspx.vb">
+      <DependentUpon>suppProduit.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="traitement.vb" />
