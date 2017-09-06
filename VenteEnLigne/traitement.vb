@@ -136,8 +136,14 @@ Module traitement
 
 
     End Function
+    Public Function commandeAll()
 
+        Return executeSQL("SELECT commande.numcom, commande.datecom, commande.matricule, client.nom, commande.numprod, produit.designation, produit.prixunit, commande.qtecom, produit.prixunit * commande.qtecom AS montant FROM client INNER JOIN commande ON client.matricule = commande.matricule INNER JOIN produit ON commande.numprod = produit.numprod")
+    End Function
+    Public Function commandePeriode(ByVal de As String, ByVal a As String)
 
+        Return executeSQL("SELECT commande.numcom, commande.datecom, commande.matricule, client.nom, commande.numprod, produit.designation, produit.prixunit, commande.qtecom, produit.prixunit * commande.qtecom AS montant FROM client INNER JOIN commande ON client.matricule = commande.matricule INNER JOIN produit ON commande.numprod = produit.numprod WHERE commande.datecom BETWEEN CONVERT(VARCHAR(10), CAST('" & de & "' AS DATE), 103) AND CONVERT(VARCHAR(10), CAST('" & a & "' AS DATE), 103)")
+    End Function
 
 
 End Module
