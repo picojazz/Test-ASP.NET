@@ -22,6 +22,7 @@ Public Class modifClient1
                 txtEmail.Text = "<input type='text' name='email' class='form-control' value='" & dr(5) & "'>"
                 txtCompte.Text = "<input type='text' name='compte' class='form-control' value='" & dr(6) & "'>"
                 mdp.Text = "<input type='password' name='mdp' class='form-control' value='" & dr(7) & "'>"
+                lst.SelectedValue = dr(3)
             End If
             dr.Close()
         End If
@@ -31,7 +32,7 @@ Public Class modifClient1
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim n As String = Request.Form("nom")
         Dim adress As String = Request.Form("adresse")
-        Dim vill As String = Request.Form("Ville")
+        Dim vill As String = Request.Form("lst")
         Dim tell As String = Request.Form("tel")
         Dim emai As String = Request.Form("email")
         Dim compt As String = Request.Form("compte")

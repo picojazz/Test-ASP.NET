@@ -29,12 +29,12 @@
 								</div>
 								<div class="form-group">
 									<label for="">Ville :</label>
-									<select name="ville" class="form-control">
-											<option value="Dakar">Dakar</option>
-											<option value="Thies">Thies</option>
-											<option value="Kaolack">Kaolack</option>
-											<option value="Tambacounda">Tambacounda</option>
-									</select>
+                                    <asp:DropDownList ID="lst" runat="server" CssClass="form-control" Width="105px">
+                                        <asp:ListItem>dakar</asp:ListItem>
+                                        <asp:ListItem>thies</asp:ListItem>
+                                        <asp:ListItem>kaolack</asp:ListItem>
+                                        <asp:ListItem>tambacounda</asp:ListItem>
+                                    </asp:DropDownList>
 								</div>
                                 <div class="form-group">
 									<label for="">Mot de passe :</label>

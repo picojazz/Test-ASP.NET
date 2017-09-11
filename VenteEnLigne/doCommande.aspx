@@ -126,9 +126,9 @@
              $(".desc").val("")
             $(".prod").val($(this).parents("tr").find('td:eq(0)').text())
             $(".codeProd").html($(this).parents("tr").find('td:eq(0)').text())
-            $(".des").html($(this).parents("tr").find('td:eq(1)').text())
-            $(".prixUnit").html($(this).parents("tr").find('td:eq(2)').text())
-            $(".qte").html($(this).parents("tr").find('td:eq(3)').text())
+            $(".des").html($(this).parents("tr").find('td:eq(2)').text())
+            $(".prixUnit").html($(this).parents("tr").find('td:eq(3)').text())
+            $(".qte").html($(this).parents("tr").find('td:eq(4)').text())
         })
        
 

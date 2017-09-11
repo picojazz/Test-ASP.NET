@@ -9,7 +9,7 @@
             Application("logout") = 1
 
 
-            Response.Redirect("connexion.aspx")
+            Response.Redirect("acceuil.aspx")
 
         End If
     End Sub

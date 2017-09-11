@@ -81,6 +81,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="acceuil.aspx" />
     <Content Include="adminConnexion.aspx" />
     <Content Include="connexion.aspx" />
     <Content Include="css\bootstrap.min.css" />
@@ -109,6 +110,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="acceuil.aspx.designer.vb">
+      <DependentUpon>acceuil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="acceuil.aspx.vb">
+      <DependentUpon>acceuil.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="adminConnexion.aspx.designer.vb">
       <DependentUpon>adminConnexion.aspx</DependentUpon>
     </Compile>

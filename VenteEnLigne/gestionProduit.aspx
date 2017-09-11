@@ -37,12 +37,12 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 
-                <div class="modal-header">
+                <%--<div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                     <h4 class="modal-title">Details du produit</h4>
-                </div>
+                </div>--%>
                 <div class="modal-body">
-                    <div class="row">
+                    <%--<div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label for="">Code du Produit :</label>
@@ -65,12 +65,12 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>--%>
                     <div class="row">
                     <div class="col-md-8 col-md-offset-2 ">
                         <div class="form-group">
-                                    <label for="">Photo:</label>
-                                    <label class="photo"><img src="" width="300px" height="300px" /></label>
+                                    <%--<label for="">Photo:</label>--%>
+                                    <label class="photo"><img src="" width="400px" height="350px" /></label>
                                 </div>
                     </div>
                     </div>

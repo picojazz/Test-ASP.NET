@@ -15,11 +15,11 @@ Public Class listeProduits
             Dim drnp As SqlDataReader
             Application("count") += 1
             Label1.Text = "<table class=' table table-stripped table-hover'>"
-            Label1.Text &= "<tr><th>code produit</th><th>designation</th><th>prix unitaire</th><th>quantite en stock</th></tr>"
+            Label1.Text &= "<tr><th>code produit</th><th>photo</th><th>designation</th><th>prix unitaire</th><th>quantite en stock</th><th>voir</th></tr>"
             dr = afficherProduit()
             If dr.HasRows Then
                 While dr.Read
-                    Label1.Text &= "<tr><td>" & dr(0) & "</td><td>" & dr(1) & "</td><td>" & dr(2) & "</td><td>" & dr(3) & "</td></tr>"
+                    Label1.Text &= "<tr><td>" & dr(0) & "</td><td><img src='" & dr(4) & "' width ='50px' height='50px'  ></td><td>" & dr(1) & "</td><td>" & dr(2) & "</td><td>" & dr(3) & "</td><td><a class='btn btn-primary voir' data-toggle='modal' href='#modal-id'>voir</a></td></tr>"
 
 
                 End While
@@ -40,7 +40,7 @@ Public Class listeProduits
             drnp.Close()
 
 
-            Label3.Text = "nombre de visites : " & Application("count")
+            Label3.Text = " visites : " & Application("count")
 
 
         End If

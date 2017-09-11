@@ -41,6 +41,15 @@ Partial Public Class modifClient
     Protected WithEvents txtAdresse As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
+    '''lst control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lst As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
     '''mdp control.
     '''</summary>
     '''<remarks>
